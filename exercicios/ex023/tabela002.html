@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{ 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th{
+            border: 1px solid black;  
+            padding: 5px;  
+        }
+
+        td{
+            border: 1px solid black; 
+            padding: 5px;    
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia das tabelas
+        TABLE
+            THEAD
+                th, td, tr
+            TBODY
+                th, td, tr
+            TFOOT
+                th, td, tr
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">2.348.338.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">779.928.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">651.873.000</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">482.464.000</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">466.377.000</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">323.264.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">293.241.000</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="numero"> 273.614.000</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">208.672.000</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">197.853.000</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">178.377.000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="numero">7.389.131.000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    
+</body>
+</html>
