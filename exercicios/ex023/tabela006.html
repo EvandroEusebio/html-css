@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela responsiva</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{
+            width: 900px;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        .p{
+            background-color: aqua;
+        }
+
+        .pr{
+            background-color: blueviolet;
+        }
+
+        .c{
+            background-color: chartreuse;
+        }
+
+        .a{
+            background-color: crimson;
+        }
+
+        #container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="p">
+                <col class="pr">
+                <col class="c">
+                <col class="a">
+                <col class="f">
+                <col class="a">
+                <col class="j">
+                <col class="t">
+                <col class="m">
+            </colgroup>
+            <thead>
+                <th>Países</th>
+                <th>Províncias</th>
+                <th>Cores</th>
+                <th>Animais</th>
+                <th>Filmes</th>
+                <th>Alimento</th>
+                <th>Jogos</th>
+                <th>Times</th>
+                <th>Marcas</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Angola</td>
+                    <td>Luanda</td>
+                    <td>Branco</td>
+                    <td>Palanca Negra</td>
+                    <td>Gladiadores</td>
+                    <td>Arroz</td>
+                    <td>The last of us</td>
+                    <td>1º de Agosto</td>
+                    <td>Nike</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
