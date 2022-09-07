@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #campo{
+            border: 1px solid black;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.192);
+        }
+
+        legend{
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset id="campo">
+            <legend>Sexo</legend>
+            <label for="ismax">Masculino</label>
+            <input type="radio" name="sexo" id="ismax" checked><br>
+            <label for="isfem">Feminino</label>
+            <input type="radio" name="sexo" id="isfem">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Jogos</legend>
+            <label for="gta">GTA</label>
+            <input type="checkbox" name="g" id="gta">
+            <label for="cod">COD</label>
+            <input type="checkbox" name="c" id="cod">
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
