@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos do formuláio</title>
+</head>
+<body>
+    <h1>Select, Datalist e Testarea</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <p>
+            <label for="ise">selecione</label>
+            <select name="se" id="ise">
+                <option value="">Seleciona um time</option>
+                <optgroup label="Europa">
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Real Madrid">Real Madrid</option>
+                </optgroup>
+                <optgroup label="Africa">
+                    <option value="Agosto">1º de Agosto</option>
+                    <option value="Petro">Petro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="ipro">Profissão</label>
+            <input type="text" name="pro" id="ipro" list="listaprof">
+            <datalist id="listaprof">
+                <option value="ADM">Administrador</option>
+                <option value="Teacher">Professor</option>
+                <option value="TECNOLOGIA">Programador</option>
+            </datalist>
+            
+        </p>
+
+        <p>
+            <label for="it">Escreva alguma coisa</label><br>
+            <textarea name="texto" id="it" cols="50" rows="20"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+    </form>
+    
+</body>
+</html>
