@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.3em;
+}
+
+body{
+    background-color: blue;
+    text-shadow: 1px 1px 1px rgb(43, 43, 211);
+}
